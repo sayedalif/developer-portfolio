@@ -12,7 +12,7 @@ h1 {
   color: orange;
 }
 
-section {
+.flexiable-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -47,4 +47,5 @@ section img {
   height: 500px; /* You must set a specified height */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-position: right;
+  margin-bottom: 150px;
 }
