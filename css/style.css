@@ -13,10 +13,16 @@ h1 {
 
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 
 section img {
   width: 80%;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 2%;
 }
 
 .link-button {
@@ -28,4 +34,15 @@ section img {
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
+}
+
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  height: 500px; /* You must set a specified height */
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
