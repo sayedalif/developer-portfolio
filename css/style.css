@@ -18,3 +18,14 @@ section {
 section img {
   width: 80%;
 }
+
+.link-button {
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
