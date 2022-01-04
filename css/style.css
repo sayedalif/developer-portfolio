@@ -8,6 +8,10 @@ h1 {
   font-size: 50px;
 }
 
+p {
+  color: dimgray;
+}
+
 .orange-color {
   color: orange;
 }
@@ -78,4 +82,8 @@ section img {
   border-left: 7px solid;
   border-image: linear-gradient(salmon, purple);
   border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
